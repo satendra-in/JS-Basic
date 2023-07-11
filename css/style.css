@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#main {
+    background-color: beige;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conatiner {
+    height: 75vh;
+    width: 40vw;
+    background-color: rgb(82, 50, 50);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#main p {
+    color: blueviolet;
+    font-size: 500%;
+}
+
+.box {
+    height: 33%;
+    width: 33%;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    color: aliceblue !important;
+    font-size: 500%;
+}
